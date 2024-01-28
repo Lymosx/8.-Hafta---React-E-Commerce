@@ -1,0 +1,7 @@
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* İki satıra sınır koyabilirsiniz */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
